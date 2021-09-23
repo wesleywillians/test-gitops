@@ -6,5 +6,5 @@ resources:
 namespace: goapp
 images:
 - name: goapp
-  newName: wesleywillians/test-gitops:latest
+  newName: wesleywillians/test-gitops
   newTag: bd0b95a1e7e31fd3a30c0a979ffbfc45761b001f
