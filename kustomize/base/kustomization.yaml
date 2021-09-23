@@ -3,8 +3,8 @@ kind: Kustomization
 resources:
 - deployment.yaml
 - service.yaml
-namespace: hello-gitops
+namespace: goapp
 images:
-- name: nginx
-  newName: wesleywillians/nginx
+- name: goapp
+  newName: wesleywillians/test-gitops:latest
   newTag: bd0b95a1e7e31fd3a30c0a979ffbfc45761b001f
