@@ -46,7 +46,7 @@ jobs:
         DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
       run: |
        cd kustomize/base
-       kustomize edit set image hello-gitops=$DOCKER_USERNAME/test-gitops:$GITHUB_SHA
+       kustomize edit set image goapp=$DOCKER_USERNAME/test-gitops:$GITHUB_SHA
        cat kustomization.yaml
         
     - name: Commit files

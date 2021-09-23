@@ -8,6 +8,3 @@ images:
 - name: goapp
   newName: wesleywillians/test-gitops
   newTag: bd0b95a1e7e31fd3a30c0a979ffbfc45761b001f
-- name: hello-gitops
-  newName: wesleywillians/test-gitops
-  newTag: f360f1b5e780e0df71874ceab35157e5c7a778cc
