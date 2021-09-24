@@ -10,6 +10,3 @@ images:
 - name: goapp
   newName: wesleywillians/test-gitops
   newTag: 6b15ba7b23af65f85a794c89246d6d482face870
-- name: wesleywillians/test-gitops
-  newName: wesleywillians/test-gitops
-  newTag: abca
