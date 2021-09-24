@@ -9,4 +9,4 @@ namespace: goapp
 images:
 - name: goapp
   newName: wesleywillians/test-gitops
-  newTag: bb9d212cc77fe51679be0a3e62663ef660a08a33
+  newTag: 784f38b3b30388a464f629b2f3141c52c7eee8fd
