@@ -15,8 +15,8 @@ spec:
         app: goapp
     spec:
       containers:
-        - image: wesleywillians/test-gitops:latest
-          name: goapp
-          ports:
-            - name: http
-              containerPort: 80
+      - image: wesleywillians/test-gitops
+        name: goapp
+        ports:
+        - containerPort: 80
+          name: http
