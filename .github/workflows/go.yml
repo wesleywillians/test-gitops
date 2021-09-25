@@ -35,6 +35,9 @@ jobs:
     steps:
     - name: Check out code
       uses: actions/checkout@v2
+      with:
+        repository: wesleywillians/test-gitops-k8s
+        token: ${{ secrets.TOKEN_GITHUB }}
 
     - name: Setup Kustomize
       uses: imranismail/setup-kustomize@v1
@@ -58,4 +61,4 @@ jobs:
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        github_token: ${{ secrets.TOKEN_GITHUB }}
