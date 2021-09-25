@@ -62,3 +62,4 @@ jobs:
       uses: ad-m/github-push-action@master
       with:
         github_token: ${{ secrets.TOKEN_GITHUB }}
+        repository: wesleywillians/test-gitops-k8s
